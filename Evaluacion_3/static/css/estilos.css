@@ -1,0 +1,43 @@
+body {
+    background-color: grey; /* Gris claro para el fondo */
+
+}
+
+.boton_div {
+    text-align: center; /* Centrar el contenido horizontalmente */
+    margin-bottom: 5px; /* Espacio entre los botones */
+    position: relative; /* Posición relativa al contenedor */
+    top: 250px; /* Mover el div 10px hacia abajo desde su posición original */
+}
+
+button {
+    background-color: blue; /* Azul */
+    color: white; /* Blanco para el texto */
+    border: none;
+    padding: 10px 20px;
+    text-decoration: underline; /* Subrayado */
+    cursor: pointer;
+    display: inline-block; /* Mostrar como bloque en línea */
+    width: 150px; /* Anchura fija para los botones */
+    border-radius: 5px;
+
+}
+.button:hover {
+    background-color: #0056b3;
+  }
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    text-align: left; /* Para centrar el contenido horizontalmente */
+}
+
+.container label,
+.container input {
+    display: block; /* Convertir los elementos en bloques para que aparezcan uno debajo del otro */
+    margin-bottom: 5px; /* Espacio entre cada etiqueta y campo de entrada */
+    width: 100%;
+}
