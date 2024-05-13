@@ -1,24 +1,24 @@
 body {
-    background-color: grey; /* Gris claro para el fondo */
+    background-color: grey; 
 
 }
 
 .boton_div {
-    text-align: center; /* Centrar el contenido horizontalmente */
-    margin-bottom: 5px; /* Espacio entre los botones */
-    position: relative; /* Posición relativa al contenedor */
-    top: 250px; /* Mover el div 10px hacia abajo desde su posición original */
+    text-align: center; 
+    margin-bottom: 5px; 
+    position: relative; 
+    top: 250px;
 }
 
 button {
-    background-color: blue; /* Azul */
-    color: white; /* Blanco para el texto */
+    background-color: blue;
+    color: white; 
     border: none;
     padding: 10px 20px;
-    text-decoration: underline; /* Subrayado */
+    text-decoration: underline;
     cursor: pointer;
-    display: inline-block; /* Mostrar como bloque en línea */
-    width: 150px; /* Anchura fija para los botones */
+    display: inline-block; 
+    width: 150px; 
     border-radius: 5px;
 
 }
@@ -32,12 +32,12 @@ button {
     transform: translate(-50%, -50%);
     background-color: white;
     padding: 20px;
-    text-align: left; /* Para centrar el contenido horizontalmente */
+    text-align: left; 
 }
 
 .container label,
 .container input {
-    display: block; /* Convertir los elementos en bloques para que aparezcan uno debajo del otro */
-    margin-bottom: 5px; /* Espacio entre cada etiqueta y campo de entrada */
+    display: block; 
+    margin-bottom: 5px;
     width: 100%;
 }
